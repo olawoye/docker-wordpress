@@ -3,7 +3,7 @@ version: '3.3'
 services:
    db:
      env_file:
-      - .env
+      - .env.example
      image: mysql:${MYSQL_VERSION}
      volumes:
        - db_data:/var/lib/mysql
@@ -16,7 +16,7 @@ services:
 
    wordpress:
      env_file:
-      - .env
+      - .env.example
      depends_on:
        - db
      image: wordpress:${WORDPRESS_VERSION}
