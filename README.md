@@ -12,7 +12,7 @@ To get started, follow the instructions below. This guide assumes **Docker** is 
 > Step 2: Clone the **Docker** image: $ git clone https://github.com/olawoye/docker-wordpress.git my-wordpress-website/
 > Step 3: Navigate to  the project folder and configure your setup by editing the .env.sample file: $ cd my-wordpress-website && nano .env
 > Step 4: Power up the **WordPress** installation: $ docker-compose up -d
-> Step 5: Open your browser and visit http://localhost:10000 (or your preferred configured port) and setup wordpress as usual
+> Step 5: Open your browser and visit http://localhost:10000 (or your preferred configured port) and setup **WordPress** as usual
 
 
 ## getting help
