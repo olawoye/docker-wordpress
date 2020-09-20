@@ -8,7 +8,7 @@ Base Docker Compose code to setup new or blank WordPress sites
 ## using the image
 To get started, follow the instructions below. This guide assumes **Docker** is installed on your machine. If you need to install **Docker**, [read up](https://docs.docker.com/get-docker/)
 
-> * Step 1: Create your **Wordpress** project folder: ~~~~$ mkdir my-wordpress-website~~~~
+> * Step 1: Create your **Wordpress** project folder: $ mkdir my-wordpress-website
 > * Step 2: Clone the repository: $ git clone https://github.com/olawoye/docker-wordpress.git my-wordpress-website/
 > * Step 3: Navigate to the project folder and create an .env file: $ cd my-wordpress-website && cp .env.example .env
 > * Step 4: Configure your setup by editing the .env file as necessary: $ nano .env
