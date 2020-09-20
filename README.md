@@ -1,5 +1,5 @@
 # docker-wordpress
-Base Docker Image to startup WordPress-based sites
+Base Docker Compose code to setup new or blank WordPress sites
 
 ## features
 - Easy WordPress setup
@@ -9,8 +9,9 @@ Base Docker Image to startup WordPress-based sites
 To get started, follow the instructions below. This guide assumes **Docker** is installed on your machine. To install **Docker**, [read up](https://docs.docker.com/get-docker/)
 
 > Step 1: Create your **Wordpress** project folder: $ mkdir my-wordpress-website
-> Step 2: Clone the **Docker** image: $ git clone https://github.com/olawoye/docker-wordpress.git my-wordpress-website/
-> Step 3: Navigate to  the project folder and configure your setup by editing the .env.sample file: $ cd my-wordpress-website && nano .env
+> Step 2: Clone the repository: $ git clone https://github.com/olawoye/docker-wordpress.git my-wordpress-website/
+> Step 3: Navigate to the project folder and create an .env file: $ cd my-wordpress-website && cp .env.example .env
+> Step 3: Configure your setup by editing the .env file as necessary: $ nano .env
 > Step 4: Power up the **WordPress** installation: $ docker-compose up -d
 > Step 5: Open your browser and visit http://localhost:10000 (or your preferred configured port) and setup **WordPress** as usual
 
@@ -19,8 +20,7 @@ To get started, follow the instructions below. This guide assumes **Docker** is 
 If you need additional help using the code, please [email](private_bj@yahoo.com)
 
 ## whats new
-- bug fixes
-
+- customize environment variables
 
 ## license
-The Dorcas Platform is open-sourced software licensed under the [**GNU GPLv3**](https://opensource.org/licenses/GPL-3.0)
+This code is open-source software licensed under the [**MIT License**](https://www.mit.edu/~amini/LICENSE.md)
